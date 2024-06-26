@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    min-width: 1200px;
+    height: 100vh;
+    background: linear-gradient(
+      to top,
+      pink 0%,
+      pink 92%,
+      paleturquoise 92%,
+      paleturquoise 100%
+    );
+
+}
+
+button{
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 0px;
+    transition: all 0.25s ease;
+}
+
+
+.homelink:hover:after{
+    width: 100%;
+}
+
+.homelink::after{
+    content: "";
+    position: absolute;
+    border-radius:inherit;
+    width: 10%;
+    height: 5px;
+    background: #000; 
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+
+
+
+.nalink:hover:after{
+    width: 100%;
+}
+
+.nalink::after{
+    content: "";
+    position: absolute;
+    border-radius:inherit;
+    width: 10%;
+    height: 5px;
+    background: #000; 
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+
+
+
+.langlink:hover:after{
+    width: 100%;
+}
+
+.langlink::after{
+    content: "";
+    position: absolute;
+    border-radius:inherit;
+    width: 10%;
+    height: 5px;
+    background: #000; 
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.25s ease;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+
+
+
+
+
+.salbut2{
+    top: 40px;
+   background: #fff;
+   border-radius: inherit;
+   border: 2px solid;
+   overflow: hidden;
+   backface-visibility: hidden;
+}
+.salbut2 span{
+    display: block;
+    transition: all 0.25s ease;
+}
+.salbut2:hover > span{
+    opacity: 0;
+    transform: scale(.5);
+}
+.salbut2 .effect{
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, -100%);
+    transition: all 0.25s ease;
+    backface-visibility: hidden;
+}
+.salbut2:hover .effect{
+    transform: translate(0);
+}
+
+
+
+
+
+
+
+.chickenmamabut{
+    top: 40px;
+   background: #fff;
+   border-radius: inherit;
+   border: 2px solid;
+   overflow: hidden;
+   backface-visibility: hidden;
+}
+.chickenmamabut span{
+    display: block;
+    transition: all 0.25s ease;
+}
+.chickenmamabut:hover > span{
+    opacity: 0;
+    transform: scale(.5);
+}
+.chickenmamabut .effect{
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, -100%);
+    transition: all 0.25s ease;
+    backface-visibility: hidden;
+}
+.chickenmamabut:hover .effect{
+    transform: translate(0);
+}
+
+
+
+
+.yumbut{
+    top: 40px;
+   background: #fff;
+   border-radius: inherit;
+   border: 2px solid;
+   overflow: hidden;
+   backface-visibility: hidden;
+}
+.yumbut span{
+    display: block;
+    transition: all 0.25s ease;
+}
+.yumbut:hover > span{
+    opacity: 0;
+    transform: scale(.5);
+}
+.yumbut .effect{
+    position: absolute;
+    background: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0, -100%);
+    transition: all 0.25s ease;
+    backface-visibility: hidden;
+}
+.yumbut:hover .effect{
+    transform: translate(0);
+}
